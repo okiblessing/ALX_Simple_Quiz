@@ -8,7 +8,7 @@ function checkAnswer() {
     // Check if an answer was selected
     if (userAnswer) {
         var answerValue = userAnswer.value; 
-        gi
+        
         var feedbackElement = document.getElementById("feedback"); // Get the feedback element
         if (answerValue === correctAnswer) {
             feedbackElement.textContent = "Correct! Well done."; // Update feedback for correct answer
