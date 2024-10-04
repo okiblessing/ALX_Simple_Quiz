@@ -10,7 +10,7 @@ function checkAnswer() {
         var answerValue = userAnswer.value; 
         
         var feedbackElement = document.getElementById("feedback"); // Get the feedback element
-        if (answerValue === correctAnswer) {
+        if (userAnswer === correctAnswer) {
             feedbackElement.textContent = "Correct! Well done."; // Update feedback for correct answer
         } else {
             feedbackElement.textContent = "That's incorrect. Try again!"; // Update feedback for incorrect answer
